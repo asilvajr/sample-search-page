@@ -11,6 +11,11 @@
 	display: inline;
 }
 
+#main_logo {
+    height: 50px;
+    width: auto;
+}
+
  input[type="text"] {
     border: 1px;
     color: #d7d7d7;
@@ -38,8 +43,10 @@ input[type="text"] {
     transition: all 0.7s ease 0s;
 }
 
-.page_logo { 
-    margin-top: 5%;
+#logo-box { 
+    top: 20px;
+    left: 20px;
+    position: absolute;
 }
 
 .bottom-toolbar-wrapper {
@@ -47,6 +54,10 @@ input[type="text"] {
     height:70px !important;
     position: fixed;
     bottom: 0;
+}
+.bottom-toolbar-wrapper div{
+   display: inline; 
+   margin-left: 20px;
 }
 
 .sbb {
